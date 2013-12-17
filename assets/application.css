@@ -2846,20 +2846,20 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 74, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: white;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #7e3d9c;
+  border-color: #6f368a;
 }
 /* line 470, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
   color: white;
-  background-color: #39b3d7;
-  border-color: #269abc;
+  background-color: #66327f;
+  border-color: #4c255e;
 }
 /* line 475, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .open .btn-info.dropdown-toggle {
   color: white;
-  background-color: #39b3d7;
-  border-color: #269abc;
+  background-color: #66327f;
+  border-color: #4c255e;
 }
 /* line 481, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .btn-info:active, .btn-info.active {
@@ -2871,8 +2871,8 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 }
 /* line 494, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #7e3d9c;
+  border-color: #6f368a;
 }
 
 /* line 83, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5546,11 +5546,11 @@ input[type="button"].btn-block {
 
 /* line 48, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
-  background-color: #5bc0de;
+  background-color: #7e3d9c;
 }
 /* line 540, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .label-info[href]:hover, .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #602f77;
 }
 
 /* line 52, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_labels.scss */
@@ -5884,7 +5884,7 @@ a.thumbnail.active {
 
 /* line 82, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #7e3d9c;
 }
 /* line 559, /home/dung/.rvm/gems/ruby-1.9.3-p194@rails328/gems/bootstrap-sass-3.0.2.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .progress-striped .progress-bar-info {
@@ -7643,34 +7643,34 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 45, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 46, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 body {
   position: relative;
 }
-/* line 48, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 49, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 body p {
   font-weight: 300;
 }
-/* line 52, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 53, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 body > header, body > section {
   position: relative;
   z-index: 1;
   background-color: white;
 }
-/* line 58, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 59, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 body section.shadow {
   box-shadow: 0px 10px 10px 0px rgba(16, 16, 16, 0.8);
 }
 
-/* line 63, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 64, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 form {
   margin-top: 20px;
 }
-/* line 66, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 67, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 form.form-horizontal .form-group {
   margin-bottom: 15px;
 }
-/* line 68, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 69, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 form.form-horizontal .form-group label {
   color: #808285;
   font-weight: 300;
@@ -7678,7 +7678,7 @@ form.form-horizontal .form-group label {
   font-size: 1.6rem;
   text-align: left;
 }
-/* line 74, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 75, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 form.form-horizontal .form-group input {
   height: 45px;
   -webkit-border-radius: 5px;
@@ -7688,11 +7688,11 @@ form.form-horizontal .form-group input {
   border-radius: 5px;
   border: 1px solid #9C9C9C;
 }
-/* line 78, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 79, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 form.form-horizontal .form-group input[type=submit] {
   border: none;
 }
-/* line 82, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 83, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 form.form-horizontal .form-group select {
   height: 45px;
   -webkit-border-radius: 5px;
@@ -7702,7 +7702,7 @@ form.form-horizontal .form-group select {
   border-radius: 5px;
   border: 1px solid #9C9C9C;
 }
-/* line 87, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 88, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 form.form-horizontal .form-group textarea {
   border: 1px solid #9C9C9C;
   -webkit-border-radius: 5px;
@@ -7712,34 +7712,34 @@ form.form-horizontal .form-group textarea {
   border-radius: 5px;
 }
 
-/* line 95, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 96, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero {
   background-size: "cover";
   text-align: center;
   min-height: 228px;
   height: 100%;
 }
-/* line 100, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 101, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero#faq {
   background: url(/assets/faq/hero-bg.jpg) center center no-repeat;
 }
-/* line 101, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 102, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero#about {
   background: url(/assets/about/hero-bg.jpg) center center no-repeat;
 }
-/* line 102, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 103, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero#contact {
   background: url(/assets/contact/hero-bg.jpg) center center no-repeat;
 }
-/* line 103, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 104, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero#comp-plan {
   background: url(/assets/comp-plan/hero-bg.jpg) center center no-repeat;
 }
-/* line 104, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 105, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero#events {
   background: url(/assets/comp-plan/hero-bg.jpg) center center no-repeat;
 }
-/* line 106, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 107, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero h1 {
   color: white;
   font-weight: 100;
@@ -7750,31 +7750,31 @@ form.form-horizontal .form-group textarea {
   font-size: 6rem;
 }
 @media (max-width: 767px) {
-  /* line 106, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+  /* line 107, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
   .hero h1 {
     font-size: 34px;
     font-size: 3.4rem;
   }
 }
-/* line 117, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 118, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .hero p {
   color: white;
   font-weight: 700;
 }
 
-/* line 124, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 125, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-inner {
   text-align: center;
 }
-/* line 126, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 127, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-inner article {
   text-align: center;
 }
-/* line 128, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 129, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-inner article header {
   margin-bottom: 10px;
 }
-/* line 130, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 131, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-inner article header h1 {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -7782,7 +7782,7 @@ form.form-horizontal .form-group textarea {
   font-size: 3.6rem;
   font-weight: 300;
 }
-/* line 136, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 137, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-inner article header a {
   color: white;
   display: inline-block;
@@ -7791,39 +7791,39 @@ form.form-horizontal .form-group textarea {
   *display: inline;
   *vertical-align: auto;
 }
-/* line 141, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 142, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-inner article img {
   margin: 0 auto;
 }
-/* line 146, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 147, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-control {
   opacity: 1;
   top: 50%;
 }
-/* line 149, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 150, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-control.right {
   background-image: none !important;
 }
-/* line 152, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 153, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-control.left {
   background-image: none !important;
 }
-/* line 156, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 157, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 .carousel .carousel-indicators {
   bottom: -60px;
 }
 
-/* line 162, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 163, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header .status-bar {
   background: #414042;
   width: 100%;
   min-height: 32px;
 }
-/* line 166, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 167, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header .status-bar ul {
   line-height: 30px;
 }
-/* line 168, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 169, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header .status-bar ul li {
   display: inline-block;
   vertical-align: baseline;
@@ -7831,82 +7831,82 @@ header#site-header .status-bar ul li {
   *display: inline;
   *vertical-align: auto;
 }
-/* line 170, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 171, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header .status-bar ul li a {
   font-size: 14px;
   font-size: 1.4rem;
   color: white;
 }
-/* line 178, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 179, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header .status-bar ul.checkout-links {
   margin-left: 20px;
 }
-/* line 185, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 186, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header nav {
   background-color: #cbccce;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cbccce), color-stop(100%, #8a8c8f));
   background-image: -webkit-linear-gradient(#cbccce, #8a8c8f);
   background-image: linear-gradient(#cbccce, #8a8c8f);
 }
-/* line 187, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 188, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header nav.navbar {
   border-radius: 0;
   margin: 0;
   padding: 0;
   border: none;
 }
-/* line 194, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 195, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header nav .navbar-brand {
   padding-top: 14px;
   padding-bottom: 14px;
 }
-/* line 199, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 200, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header nav ul {
   line-height: 70px;
   position: relative;
 }
-/* line 202, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 203, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header nav ul li {
   line-height: 25px;
   margin-right: 0px;
 }
-/* line 206, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 207, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 header#site-header nav ul li a {
   color: #231F20;
   text-decoration: none;
 }
 
-/* line 215, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+/* line 216, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
 hr {
   border-color: #909295;
 }
 
 /* Don't use the 1170 container, designs max out at 960 */
 @media (min-width: 1200px) {
-  /* line 222, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+  /* line 223, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 768px) {
-  /* line 229, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+  /* line 230, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
   nav.navbar ul.navbar-nav {
     float: right;
   }
-  /* line 231, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+  /* line 232, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
   nav.navbar ul.navbar-nav li {
     margin-right: 20px;
   }
-  /* line 233, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+  /* line 234, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
   nav.navbar ul.navbar-nav li.active {
     border-bottom: none;
   }
-  /* line 235, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+  /* line 236, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
   nav.navbar ul.navbar-nav li.active a, nav.navbar ul.navbar-nav li.active a:hover {
     border-bottom: none;
     background-color: transparent;
   }
-  /* line 240, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
+  /* line 241, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/application.css.scss */
   nav.navbar ul.navbar-nav li#magic-line {
     position: absolute;
     bottom: 18px;
@@ -8328,6 +8328,60 @@ body.nutrition a.navbar-brand:after {
   content: url(/assets/products/nutrition/logo.png);
 }
 
+/* line 1, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login {
+  background-color: #1c75bc;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1c75bc), color-stop(100%, #004a80));
+  background-image: -webkit-linear-gradient(#1c75bc, #004a80);
+  background-image: linear-gradient(#1c75bc, #004a80);
+  padding-bottom: 0px;
+}
+/* line 6, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login > section#main {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  background-image: url(/assets/login-bg.png);
+  background-repeat: no-repeat;
+  background-position: 10% bottom;
+  padding-bottom: 30px;
+}
+/* line 14, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login > section#main a {
+  color: inherit;
+}
+/* line 20, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login > section#main form .form-group .input-group label.form-control {
+  background-color: transparent;
+  color: white;
+  font-weight: normal;
+}
+/* line 29, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login footer {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-image: none;
+  background-color: white;
+  color: #0f94d1;
+  position: static;
+  height: auto;
+  min-height: 20px;
+}
+/* line 38, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login footer ul, body.login footer ul li, body.login footer ul li a {
+  color: #0f94d1;
+}
+/* line 43, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login table.table th {
+  color: white;
+}
+/* line 46, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/login.css.scss */
+body.login table.table td {
+  line-height: 30px;
+  height: 30px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
 /* Headings */
 /* line 6, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 h1 small, h1 .small, h2 small, h2 .small, h3 small, h3 .small, h4 small, h4 .small, h5 small, h5 .small, h6 small, h6 .small {
@@ -8377,33 +8431,43 @@ h4, h5, h6 {
 }
 
 /* line 48, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 51, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 55, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+.pad {
+  margin-top: 20px;
+}
+
+/* line 59, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 .row.pad {
   padding-top: 2em;
 }
 
-/* line 52, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
-img.pad {
-  margin-top: 20px;
-}
-
-/* line 56, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 63, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 section.space {
   padding-top: 4em;
   padding-bottom: 4em;
 }
 
 /* Lists */
-/* line 63, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 70, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 67, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 74, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.checkout-links {
   text-align: right;
 }
-/* line 69, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 76, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.checkout-links li {
   margin-right: 15px;
   position: relative;
@@ -8413,24 +8477,24 @@ ul.checkout-links li {
   *display: inline;
   *vertical-align: auto;
 }
-/* line 73, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 80, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.checkout-links li:last-of-type {
   margin-right: 0;
 }
-/* line 76, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 83, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.checkout-links li a {
   color: white;
 }
-/* line 78, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 85, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.checkout-links li a:hover {
   text-decoration: none;
 }
-/* line 84, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 91, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.icon-links {
   margin-top: 1em;
   margin-left: 2em;
 }
-/* line 87, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 94, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.icon-links li a {
   display: inline-block;
   vertical-align: middle;
@@ -8438,17 +8502,17 @@ ul.icon-links li a {
   height: 2em;
   line-height: 2em;
 }
-/* line 93, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 100, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.icon-links li a span.glyphicon {
   display: inline-block;
   padding-right: 1.5em;
 }
-/* line 99, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 106, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.inline {
   margin-left: 0px;
   padding-left: 0px;
 }
-/* line 102, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 109, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 ul.inline li {
   display: inline-block;
   margin-left: 0px;
@@ -8457,12 +8521,12 @@ ul.inline li {
 }
 
 /* Quotes */
-/* line 113, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 120, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 blockquote {
   border: 0;
   font-size: 14px;
 }
-/* line 116, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 123, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 blockquote cite {
   display: block;
   text-align: right;
@@ -8470,11 +8534,11 @@ blockquote cite {
   font-size: 18px;
   color: #0f94d1;
 }
-/* line 122, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 129, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 blockquote cite:before {
   content: "";
 }
-/* line 125, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
+/* line 132, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/typography.css.scss */
 blockquote cite:after {
   content: "";
 }
@@ -8611,7 +8675,7 @@ form.form-inline .form-group .form-control, form.navbar-form .form-group .form-c
 }
 
 /* line 14, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/_forms.css.scss */
-form input[type=number] {
+table.prices input[type=number] {
   max-width: 5em;
 }
 
@@ -8651,6 +8715,17 @@ table.table th {
   display: inline-block !important;
   margin-bottom: 0 !important;
   vertical-align: middle !important;
+}
+
+/* line 53, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/_forms.css.scss */
+.form-group.form-inline, .form-group.navbar-form {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 59, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/_forms.css.scss */
+form h2, form h3 {
+  margin-bottom: 0.75em;
 }
 
 /* line 2, /home/dung/jobs/idlife/rails/idlife.com/app/assets/stylesheets/components/_tabs.css.scss */

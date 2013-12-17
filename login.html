@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IdlifeCom</title>
+    <link href="/assets/application.css?body=1" media="all" rel="stylesheet" />
+  </head>
+  <body class='login'>
+    <header id='site-header'>
+      <div class='status-bar'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-md-6'>
+              <ul id='social'>
+                <li>
+                  <a href='#'>
+                    <img alt="Fb icon" src="/assets/fb-icon.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <img alt="Twitter icon" src="/assets/twitter-icon.png" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='col-md-6'>
+              <ul class='checkout-links pull-right'>
+                <li>
+                  <a href='login.html'>Login <!-- PLACEHOLDER Login/Logout links as needed --></a>
+                </li>
+                <li>
+                  <a href=''>
+                    <span class='glyphicon glyphicon-shopping-cart'></span>
+                    <span class='badge'>10 <!-- PLACEHOLDER Cart Item Count --></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class='navbar navbar-default' role='navigation'>
+        <div class='container'>
+          <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='#id_nav' data-toggle='collapse' type='button'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class="navbar-brand" href="/"><img alt="Logo" src="/assets/logo.png" /></a>
+          </div>
+          <div class='collapse navbar-collapse' id='id_nav'>
+            <ul class='nav navbar-nav'>
+              <li class='active'>
+                <a href="/products.html">Products</a>
+              </li>
+              <li>
+                <a href="/comp_plan.html">The Opportunity</a>
+              </li>
+              <li>
+                <a href="/about.html">The Team</a>
+              </li>
+              <li>
+                <a href="/faq.html">Questions</a>
+              </li>
+              <li>
+                <a href="/events.html">Events</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id='main'>
+      <div class='container'>
+        <h1>Welcome to IDLife!</h1>
+        <div class='row'>
+          <div class='col-md-6'>
+            <h2>Login</h2>
+            <form id='login'>
+              <div class='form-group'>
+                <label class='sr-only'>Username</label>
+                <input class='form-control input-lg' name='username' placeholder='Username'>
+              </div>
+              <div class='form-group'>
+                <label class='sr-only'>Password</label>
+                <input class='form-control input-lg' name='password' placeholder='Password' type='password'>
+              </div>
+              <button class='btn btn-primary btn-lg' type='submit'>Sign In</button>
+            </form>
+            <br>
+            <div class='alert alert-danger'>
+              The username/password combination you provided is incorrect.
+            </div>
+            <p>
+              <a href='/forgot_password.html'>Forgot your username or password?</a>
+            </p>
+          </div>
+          <div class='col-md-6'>
+            <h2>Create an Account</h2>
+            <form id='login'>
+              <div class='form-group'>
+                <label class='sr-only'>First Name</label>
+                <input class='form-control input-lg' name='first-name' placeholder='First Name'>
+              </div>
+              <div class='form-group'>
+                <label class='sr-only'>Last Name</label>
+                <input class='form-control input-lg' name='last-name' placeholder='Last Name'>
+              </div>
+              <div class='form-group'>
+                <label class='sr-only'>Email</label>
+                <input class='form-control input-lg' name='email' placeholder='Email' type='email'>
+              </div>
+              <div class='form-group'>
+                <label class='sr-only'>Gender</label>
+                <select class='form-control' name='gender'>
+                  <option value=''>Gender</option>
+                  <option value='female'>Female</option>
+                  <option value='male'>Male</option>
+                </select>
+              </div>
+              <div class='form-group row'>
+                <div class='col-md-7'>
+                  <label class='sr-only'>Birth Month</label>
+                  <select class='form-control' name='birth-month'>
+                    <option value=''>Birth Month</option>
+                    <option value='1'>January</option>
+                    <option value='2'>February</option>
+                    <option value='3'>March</option>
+                    <option value='4'>April</option>
+                    <option value='5'>May</option>
+                    <option value='6'>June</option>
+                    <option value='7'>July</option>
+                    <option value='8'>August</option>
+                    <option value='9'>September</option>
+                    <option value='10'>October</option>
+                    <option value='11'>November</option>
+                    <option value='12'>December</option>
+                  </select>
+                </div>
+                <div class='col-md-5'>
+                  <label class='sr-only'>Birth Year</label>
+                  <select class='form-control' name='birth-year'>
+                    <option value=''>Birth Year</option>
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                    <option>1997</option>
+                    <option>1996</option>
+                    <option>1995</option>
+                    <option>1994</option>
+                    <option>1993</option>
+                    <option>1992</option>
+                    <option>1991</option>
+                    <option>1990</option>
+                    <option>1989</option>
+                    <option>1988</option>
+                    <option>1987</option>
+                    <option>1986</option>
+                    <option>1985</option>
+                    <option>1984</option>
+                    <option>1983</option>
+                    <option>1982</option>
+                    <option>1981</option>
+                    <option>1980</option>
+                    <option>1979</option>
+                    <option>1978</option>
+                    <option>1977</option>
+                    <option>1976</option>
+                    <option>1975</option>
+                    <option>1974</option>
+                    <option>1973</option>
+                    <option>1972</option>
+                    <option>1971</option>
+                    <option>1970</option>
+                    <option>1969</option>
+                    <option>1968</option>
+                    <option>1967</option>
+                    <option>1966</option>
+                    <option>1965</option>
+                    <option>1964</option>
+                    <option>1963</option>
+                    <option>1962</option>
+                    <option>1961</option>
+                    <option>1960</option>
+                    <option>1959</option>
+                    <option>1958</option>
+                    <option>1957</option>
+                    <option>1956</option>
+                    <option>1955</option>
+                    <option>1954</option>
+                    <option>1953</option>
+                    <option>1952</option>
+                    <option>1951</option>
+                    <option>1950</option>
+                    <option>1949</option>
+                    <option>1948</option>
+                    <option>1947</option>
+                    <option>1946</option>
+                    <option>1945</option>
+                    <option>1944</option>
+                    <option>1943</option>
+                    <option>1942</option>
+                    <option>1941</option>
+                    <option>1940</option>
+                    <option>1939</option>
+                    <option>1938</option>
+                    <option>1937</option>
+                    <option>1936</option>
+                    <option>1935</option>
+                    <option>1934</option>
+                    <option>1933</option>
+                    <option>1932</option>
+                    <option>1931</option>
+                    <option>1930</option>
+                    <option>1929</option>
+                    <option>1928</option>
+                    <option>1927</option>
+                    <option>1926</option>
+                    <option>1925</option>
+                    <option>1924</option>
+                    <option>1923</option>
+                    <option>1922</option>
+                    <option>1921</option>
+                    <option>1920</option>
+                  </select>
+                </div>
+              </div>
+              <h2>Create a Username/Password</h2>
+              <div class='form-group'>
+                <label class='sr-only'>Username</label>
+                <input class='form-control input-lg' name='username' placeholder='Username'>
+              </div>
+              <div class='form-group'>
+                <label class='sr-only'>Password</label>
+                <input class='form-control input-lg' name='password' placeholder='Password' type='password'>
+              </div>
+              <div class='form-group'>
+                <label class='sr-only'>Re-enter Password</label>
+                <input class='form-control input-lg' name='confirm-password' placeholder='Re-enter Password' type='password'>
+              </div>
+              <div class='form-group'>
+                <div class='input-group'>
+                  <span class='input-group-addon'>
+                    <input id='agree' name='agree' type='checkbox' value='1'>
+                  </span>
+                  <label class='form-control' for='agree'>
+                    I agree to the IDLife
+                    <a href='privacy.html' target='_blank'>
+                      Privacy Statement and Disclaimer
+                    </a>
+                  </label>
+                </div>
+              </div>
+              <div class='form-group'>
+                <div class='input-group'>
+                  <span class='input-group-addon'>
+                    <input id='partner' name='partner' type='checkbox' value='1'>
+                  </span>
+                  <label class='form-control' for='partner'>
+                    Would you like to become an IDLife Partner?
+                  </label>
+                </div>
+              </div>
+              <a class='btn btn-primary btn-lg' href='/enroll.html'>Continue</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <ul class='terms'>
+              <li>Copyright &copy; 2013 IDLife LLC.</li>
+              <li>All rights reserved.</li>
+              <li>
+                <a href=''>Privacy Policy</a>
+              </li>
+              <li>
+                <a href=''>Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/assets/jquery.js?body=1"></script>
+    <script src="/assets/jquery_ujs.js?body=1"></script>
+    <script src="/assets/turbolinks.js?body=1"></script>
+    <script src="/assets/jquery.cycle2.js?body=1"></script>
+    <script src="/assets/jquery.cycle2.carousel.js?body=1"></script>
+    <script src="/assets/equalHeight.js?body=1"></script>
+    <script src="/assets/magicline.js?body=1"></script>
+    <script src="/assets/bootstrap/affix.js?body=1"></script>
+    <script src="/assets/bootstrap/alert.js?body=1"></script>
+    <script src="/assets/bootstrap/button.js?body=1"></script>
+    <script src="/assets/bootstrap/carousel.js?body=1"></script>
+    <script src="/assets/bootstrap/collapse.js?body=1"></script>
+    <script src="/assets/bootstrap/dropdown.js?body=1"></script>
+    <script src="/assets/bootstrap/tab.js?body=1"></script>
+    <script src="/assets/bootstrap/transition.js?body=1"></script>
+    <script src="/assets/bootstrap/scrollspy.js?body=1"></script>
+    <script src="/assets/bootstrap/modal.js?body=1"></script>
+    <script src="/assets/bootstrap/tooltip.js?body=1"></script>
+    <script src="/assets/bootstrap/popover.js?body=1"></script>
+    <script src="/assets/bootstrap.js?body=1"></script>
+    <script src="/assets/application.js?body=1"></script>
+    
+  </body>
+</html>
